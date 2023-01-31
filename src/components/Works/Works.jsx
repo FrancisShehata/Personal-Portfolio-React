@@ -1,13 +1,11 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
+import VectorN from "../../img/VectorN.png";
+import Winners from "../../img/Winners.png";
+
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -21,19 +19,15 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+           Worked for these Clients
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Vector Networks
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
             <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+            Winners
+            <br />          </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
@@ -54,19 +48,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+          <img src={Winners} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+          <img src={VectorN} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+           
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+           
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+          
           </div>
         </motion.div>
         {/* background Circles */}
