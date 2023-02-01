@@ -3,7 +3,7 @@ import "./Works.css";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
-import VectorN from "../../img/VectorN.png";
+import VectorN from "../../img/Vector.png";
 import Winners from "../../img/Winners.png";
 
 const Works = () => {

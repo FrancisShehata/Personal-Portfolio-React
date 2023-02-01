@@ -9,6 +9,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import bs from "../../img/bs.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -43,8 +44,8 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-       { /*<img src={jer} alt="" />/*}
-        {/* animation */}
+        <img src={bs} alt="paul catanu" />
+      
         <motion.img
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24%" }}
