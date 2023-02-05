@@ -4,12 +4,12 @@ import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
+import Francis from "../../img/Francis.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
-import bs from "../../img/bs.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -36,15 +36,26 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+        <a href="https://github.com/FrancisShehata">
+        <img src={Github} alt="Github"/>
+        </a>
+        <a href="https://www.linkedin.com/in/francis-shehata-69505824b/">
+        <img src={LinkedIn} alt="LinkedIn"/>
+        </a>
+        <a href="https://www.instagram.com/francisshehataaa/">
+        <img src={Instagram} alt="Instagram"/>
+        </a>
+         
         </div>
       </div>
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={bs} alt="paul catanu" />
+
+       
+        <div class="img-container">
+        <img src={Francis} alt=""/>
+       </div>
       
         <motion.img
           initial={{ left: "-36%" }}

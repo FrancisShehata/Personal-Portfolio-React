@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <div className="contact-form" id="contact">
-      {/* left side copy and paste from work section */}
+    
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}

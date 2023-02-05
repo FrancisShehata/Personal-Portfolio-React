@@ -23,14 +23,15 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={Concordia} alt=" Concordia Project" />
         </SwiperSlide>
+
         <SwiperSlide>
-        
+         <img src={Concordia} alt=" Concordia Project" />
         </SwiperSlide>
         <SwiperSlide>
-        
+        <img src={Concordia} alt=" Concordia Project" />
         </SwiperSlide>
         <SwiperSlide>
-        
+        <img src={Concordia} alt=" Concordia Project" />
         </SwiperSlide>
       </Swiper>
     </div>
